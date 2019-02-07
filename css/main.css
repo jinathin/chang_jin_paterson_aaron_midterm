@@ -1,0 +1,1277 @@
+@charset"UTF-8";
+/*CSS Doc*/
+
+/* comments */
+
+.hidden
+{
+	display: none;
+}
+
+/* Scaffold Colors in grays dark to light below. */
+/* #A9A9A9 */ 
+/* #696969 */
+/* #282828 */
+/* #DCDCDC */
+
+
+
+body
+{
+	font-family: 'Helvetica', Arial, sans-serif;
+
+}
+
+p 
+{	
+	font-size: 14px;
+	line-height: 28px;
+}
+
+a:any-link 
+{
+	color: #000;
+	text-decoration: none;
+	cursor: auto;
+}
+
+div a {
+	font-size: 12px;
+}
+
+
+
+/* This will fill all my content */
+#topInfo
+{	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1440px;
+	height: 54px;
+	margin: 0 auto;
+	background-color: #dcdcdc;
+}
+
+.holder
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+
+}
+
+#contactTop
+{
+	width: 300px;
+	height: 27px;
+	color: #fff;
+	margin-top: 12px;
+	margin-right: 500px;
+	background-color: #696969;
+}
+
+#socialTop
+{
+	width: 300px;
+	height: 27px;
+	color: #fff;
+	margin-top: 12px;
+	background-color: #696969;
+
+}
+
+/* put DIVs the the siteContianer */
+#siteContainer
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+}
+
+/*This is a flex for logo */
+#logo
+{	
+	background-color: #696969;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+
+}
+
+.navCon
+{
+	margin-left: auto;
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+#mainNav
+{	
+	display:flex;
+	flex-direction: column;
+	margin-left: auto;
+	width: 742px;
+	height: 45px;
+	margin-top: 96px;
+	margin-bottom: 15px;
+	background-color: #696969;
+}
+
+#mainNav ul
+{
+
+	text-decoration: uppercase;
+	display: flex;
+	flex-direction: row;
+}
+
+/* hover for later */
+/*#mainNav ul li a
+{
+	display: block;
+	width: 100px;
+	color: #fff;
+	background-color: red;
+	margin-left: 20px;
+	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 7px;
+<<<<<<< HEAD
+	background: #cff3019;
+=======
+	background: #ff3019;
+>>>>>>> dev.jc.scaf
+
+}
+*/
+
+#featuredCon
+{
+	display: flex;
+	flex-direction; row;
+	position: absolute;
+	margin-top: 370px;
+}
+
+#featuredImage
+
+{	
+	height: 510px;
+	width: 732px;
+	background-color: #282828;
+	margin-right: 60px;
+}
+
+#featuredImageDesc
+{
+	width: 360px;
+	height: 320px;
+	margin-top: 70px;
+	background-color: #a9a9a9;
+
+}	
+
+#featureStack{
+	display: flex;
+	flex-direction: column;
+}
+
+.featBut
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.featBut:Hover
+{
+	background-color: #696969;
+}
+
+	
+#featureStack{
+	display: flex;
+	flex-direction: column;
+}
+
+/* Space create within the body */
+.space
+{
+	margin-bottom: 700px;
+}
+
+.aboutSpace
+{
+	margin-bottom: 820px;
+}
+
+/*  title header for the section */
+#aboutSection
+{
+	margin-top: 140px;
+
+}
+
+#aboutSection h3
+{	
+
+	width: 611px;
+	height: 65px;
+	color: #696969;
+	text-align: center;
+	background-color: #696969;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+/* project section container */
+#projectSection
+
+{	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	height: 240px;
+}
+
+#projectSection h3
+{	
+	height: 65px;
+	color: #696969;
+	text-align: center;
+	background-color: #696969;
+	margin: 0 auto;
+	margin-bottom: 38px;
+}
+
+#projectSection p
+{
+	width: 852px;
+	height: 60px;
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+	background-color: #696969;
+	margin: 0 auto;
+	
+}
+
+/* two boxes on each side */
+.projectCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 120px;	
+}
+
+/* project section container */
+
+#contactPage
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 120px;	
+}
+
+
+.projectCon h2 
+{
+	margin-top: 60px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+/* section container */
+#projectImage1, #projectImage2 
+{	
+
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #282828;
+}
+
+.projectText
+{	width: 325px;
+	text-align: center;
+}
+
+/* center the containter to the wrapper projectCon */
+.troutCon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* psuh the button down */
+.troutCon a
+{
+	margin-top: 40px;
+}
+
+.rodCon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* push the button down */
+.rodCon a
+{
+	margin-top: 40px;
+}
+
+/* section buttons */
+.projBut
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.projBut:Hover
+{
+	background-color: #696969;
+}
+
+/* Funding start */
+.fundingSection
+{
+	display: flex;
+	flex-direction: row;
+	height: 500px;
+	margin-bottom: 760px;
+	background-color: #a9a9a9; 
+}
+
+
+.fundBut
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.fundBut:Hover{
+	background-color: #696969;
+
+}
+
+#fundingCon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	margin-top:150px;
+}
+
+#fundingTitle
+{
+	width: 250px;
+	height: 36px;
+	margin-bottom: 30px;
+	background-color: #696969;
+
+}
+
+.fundingText
+{
+	width: 600px;
+	height: 50px;
+	background-color: #696969;
+	margin-bottom: 40px;
+}
+/* Funding End */
+
+/* Shop start */
+#shopCon
+{
+	display: flex;
+	flex-direction; row;
+	position: absolute;
+	margin-top: 2625px;
+}
+
+#shopImage
+{	
+	height: 510px;
+	width: 732px;
+	background-color: #282828;
+	margin-right: 60px;
+}
+
+#shopStack{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#shopImageDesc
+{
+	width: 360px;
+	height: 410px;
+	background-color: #a9a9a9;
+
+}	
+
+.shopBut
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.shopBut:Hover{
+	background-color: #696969;
+
+}
+/* shop end */
+
+/* newsfeed start */
+.newsfeedCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #dcdcdc;
+	margin-bottom: 110px;
+
+}
+
+/* center content inside its container  */
+.newsfeed
+{	
+	margin: 0 auto;
+}
+
+
+.newsfeedCon h3
+{
+	width: 212px;
+	height: 65px;
+	margin: 0 auto;
+	background-color: #696969;
+	margin-top: 70px;
+	margin-bottom: 38px;
+	ma
+}
+
+#newsfeedTitle
+{
+	text-align: center;
+}
+
+.newsfeedText
+{
+	width: 600px;
+	height: 50px;
+	background-color: #696969;
+	text-align: center;
+	margin-bottom: 40px;
+	margin: 0 auto;
+}
+/* side by side feeds */
+.juxtaSocial
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.fb-comment-embed
+{
+	width:400px;
+	height: 450px;
+	margin-right: 60px;
+	background-color: #696969;
+}
+
+.twitter-comment-embed
+{
+	width:400px;
+	height: 450px;
+	background-color: #696969;
+}
+
+
+/* volunteer start */
+.volunteerSection
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#volunteerTitle
+{	
+	width: 212px;
+	height: 36px;
+	text-align: center;
+	background-color: #696969;
+	margin: 0 auto;
+
+}
+
+#volunteerCon
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+#profileCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 760px;
+	height: 400px;
+	margin-top: 90px;
+
+}
+
+#profileconUpper
+{
+	display: flex;
+	width: 900px;
+	height: 400px;
+}
+
+
+#profileconLower
+{
+	display: flex;
+	width: 900px;
+	height: 350px;
+	margin-top: 0px;
+}
+
+.profileImage
+{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	top: 40px;
+	border-radius: 100px;
+	margin: 0 auto;
+	background-color: #696969;
+}
+
+/* Social Media */
+.socialProfile
+{	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 230px;
+	margin-bottom: 55px;	
+	border-radius: 4px;
+	background-color: #dcdcdc;
+}
+
+
+.volunteerNam
+{
+	letter-spacing: 0.03em;
+	font-size: 19px;
+	border-top: 1px solid #696969;
+	padding-top: 13px;
+	margin-top: 60px;
+}
+
+/* Just the normal */
+.justVolunteer
+{
+	letter-spacing: 0.03em;
+	color: #979797;
+	margin-bottom: 70px;
+}
+
+.socialProfile #volunteetNam
+{
+	width: 160px;
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #696969;
+}
+
+.executiveProfile
+{
+	width: 160px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.socialmediaIcons
+{	
+	width: 180px;
+	height: 28px;
+	position: relative;
+	bottom: 30px;
+	background-color: #696969;
+}
+
+.volBut
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.volBut:Hover
+{
+	background-color: #696969;
+}
+/* volunteer End */
+
+
+/* partner start */
+#partnerCon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 135px;
+}
+
+#partnerTitle
+{
+	width: 250px;
+	height: 36px;
+	text-align: center;
+	color: #696969;
+	margin-bottom: 30px;
+	background-color: #696969;
+
+}
+
+.partnerText
+{
+	width: 600px;
+	height: 50px;
+	text-align: center;
+	color: #696969;
+	background-color: #696969;
+	margin-bottom: 50px;
+}
+
+.partnerFeature
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+
+.partnerLogo
+{
+	width: 160px;
+	height: 50px;
+	margin: 40px;
+	background-color: #282828;
+}
+
+/* partner end */
+
+#bodyTitle 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 656px;
+	height: 105px;
+	background-color: #a9a9a9;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+#googleMap
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+/*	width: 0 auto;*/
+	height: 600px;
+	background-color: #696969;
+	z-index: -1;
+
+}
+
+#contactForm
+{
+	display: flex;
+    flex-direction: row;
+    width: 910px;
+    margin: 0 auto;
+    background-color: #a9a9a9;
+    position: relative;
+    justify-content: space-evenly; 
+   	bottom: 50px;
+   	margin-bottom: 400px;
+}
+
+#contactForm h2
+{
+	display: flex;
+	background-color: #696969;
+	width: 266px;
+	height: 279px;
+	margin: 50px;
+
+}
+
+#contactForm h3
+{
+	display: flex;
+	background-color: #696969;
+	width: 428px;
+	height: 736px;
+	margin: 50px;
+}
+
+/*#bgimg
+{
+	justify-content: center;
+	width: 1440px;
+	position: absolute;
+	top: 1700px;
+	z-index: -2;
+}*/
+
+
+/* question section */
+.questionSection
+{
+	width: 1020px;
+	height: 110px;
+	position: relative;
+	margin: 0 auto;
+	bottom: 50px;
+	background-color: #dcdcdc;
+	justify-content: space-evenly;
+}
+
+.haveQuestion
+{
+	display: flex;
+	flex-direction: row;
+	margin: 23px 25px 25px 70px;
+
+}
+
+#questionNumber
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.haveQuestion h3
+{
+	width: 200px;
+	height: 20px;
+	margin-bottom: 14px;
+	font-size: 16px;
+	background-color: #696969;
+
+}
+
+.haveQuestion p
+{
+	width: 240px;
+	height: 30px;
+	font-size: 16px;
+	background-color: #282828;
+}
+
+#questionNumber
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.emailSection
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+#emailForm
+{	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-left: 30px;
+
+}
+
+/* to make the search stay of the right side*/
+
+#emailForm input
+{
+	width: 290px;
+	padding: 14px 26px 14px 25px;
+	border: 1px solid #d1d1d1;
+	bottom: 56px;
+	border-radius: 20px;
+	margin-right: 30px;
+}
+
+.subscribeTitle
+{
+	width: 111px;
+	height: 30px;
+	background-color: #696969;
+}
+/* question end  */
+
+
+/* mission start */
+.missionSection
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+#missionTitle
+{	
+	width: 212px;
+	height: 36px;
+	text-align: center;
+	background-color: #696969;
+	margin: 0 auto;
+
+}
+
+#missionCon
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+/* mission statement end */
+.pmissionCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 45px;
+
+}
+
+
+#missionWrapper
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+#missionInfo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 1020px;
+	height: 310px;
+	margin-top: 40px;
+
+}
+
+/* our mission start */
+.ourMission
+{
+	width: 260px;
+	background-color: #282828;
+}
+
+.quickLinks
+{
+	width: 260px;
+	background-color: #282828;
+}
+.contactUs
+{
+	width: 260px;
+	border-left: 1px solid #fff;
+	background-color: #282828;
+}
+
+
+/*copyright start */
+
+#copyRight
+{	
+
+	position: absolute;
+	width: 1440px;
+	height: 56px;
+	margin-top: 540px;
+	background-color: #dcdcdc;
+}
+
+.copyrightCopy 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 15px;
+
+}
+
+.socialmediaFooter
+{
+	width: 200px;
+	height: 25px;
+	margin-left: ;
+	background-color: #696969;
+
+}
+
+/* All about section CSS */
+/* About section content */
+
+#aboutCon
+{
+	display: flex;
+	flex-direction; row;
+	position: absolute;
+	margin-top: 670px;
+}
+
+
+#aboutImage
+{	
+	height: 600px;
+	width: 732px;
+	background-color: #282828;
+	margin-right: 60px;
+}
+
+#aboutImageDesc
+{
+	width: 360px;
+	height: 598px;
+	background-color: #a9a9a9;
+
+}
+
+.bulletpointCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 120px;	
+}
+
+.projectText
+{	width: 325px;
+	text-align: center;
+}
+
+/* center the containter to the wrapper projectCon */
+.bulletpointLeft
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+/* psuh the button down */
+.bulletpointLeft a
+{
+	margin-top: 40px;
+}
+
+.bulletpointRight
+{
+	border-left: 1px solid #282828;
+	padding-left: 110px;
+}
+
+
+.bulletpointRightCon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* push the button down */
+.bulletpointRightCon a
+{
+	margin-top: 40px;
+}
+
+/* section buttons */
+.projBut
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.projBut:Hover
+{
+	background-color: #696969;
+}
+
+
+/* TRAA Executives && Volunteer Committee Chairs*/
+/* volunteer start */
+.executiveSection
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid #000;
+}
+
+#executiveTitle
+{	
+	margin-right: auto;
+	width: 650px;
+	height: 36px;
+	background-color: #696969;
+	margin-top: 90px;
+	margin-bottom: 40px;
+
+}
+
+#executiveCon-1
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+#executiveCon-2
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+#profileCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 760px;
+	height: 400px;
+	margin-top: 90px;
+
+}
+
+.profileImage
+{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	top: 40px;
+	border-radius: 100px;
+	margin: 0 auto;
+	background-color: #696969;
+}
+
+/* Social Media */
+.socialProfile
+{	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 230px;
+	margin-bottom: 55px;	
+	border-radius: 4px;
+	background-color: #dcdcdc;
+}
+
+
+.executiveNam
+{
+	letter-spacing: 0.03em;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+}
+
+/* Just the normal */
+.rankTitle
+{
+	letter-spacing: 0.03em;
+	color: #979797;
+	margin-top: 60px;
+	text-align: left;
+}
+
+.committeeSection
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+
+.socialProfile #volunteetNam
+{
+	width: 160px;
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #696969;
+}
+
+.socialmediaIcons
+{	
+	width: 180px;
+	height: 28px;
+	position: relative;
+	bottom: 30px;
+	background-color: #696969;
+}
+
+.volBut
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.volBut:Hover
+{
+	background-color: #696969;
+}
+
+/* TRAA Exec ends*/
+/* about section end */
+
+#aboutFooter
+{	
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	height: 545px;
+	width: 1440px;
+	margin-top: 3875px;
+	background-color: #696969;
+
+}
+
+/* copyright end */
+#mainFooter
+{	
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	height: 545px;
+	width: 1440px;
+	margin-top: 5275px;
+	background-color: #696969;
+
+}
+
+#mainFootercontact
+{	
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	height: 545px;
+	width: 1440px;
+	margin-top: 100px;
+	background-color: #696969;
+}
+
+
+/*for future uses maybe
+#bgimg {
+  max-width: 100%; 
+  width: 800px;
+  margin: auto;
+}
+
+#bgm::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}*/
+
