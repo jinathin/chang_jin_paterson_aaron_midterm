@@ -43,7 +43,8 @@ div a {
 
 /* This will fill all my content */
 #topInfo
-{	display: flex;
+{	
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	width: 1440px;
@@ -740,6 +741,21 @@ div a {
 	margin-top: 100px;
 }
 
+#bodyTitle h3
+{
+	font-family: 'Noticia Text', serif;
+	font-size: 36px;
+	margin: 10px;
+	
+}
+
+#bodyTitle h4
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 19px;
+	margin-top: 22px;
+}
+
 #googleMap
 {
 	display: flex;
@@ -747,8 +763,8 @@ div a {
 	flex-direction: column;
 /*	width: 0 auto;*/
 	height: 600px;
-	background-color: #696969;
 	z-index: -1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -758,34 +774,113 @@ div a {
     flex-direction: row;
     width: 910px;
     margin: 0 auto;
-    background-color: #a9a9a9;
+    background-color: white;
     position: relative;
     justify-content: space-evenly; 
    	bottom: 50px;
-   	margin-bottom: 400px;
+   	margin-bottom: -300px;
+   /*	box-shadow: 10px 10px 5px #dcdcdc;*/
+   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#contactForm h2
+
+#contactText 
 {
 	display: flex;
-	background-color: #696969;
+	/*background-color: #696969;*/
 	width: 266px;
 	height: 279px;
 	margin: 50px;
+  	font-size: 16px;
+  	margin-bottom: 30px;
+  	width: 380px;
+  	font-family: 'Source Sans Pro', sans-serif;
+  	padding-top: 20px;
+
+}
+
+.vl 
+{
+
+  	border-left: 1px solid black;
+  	height: 700px;
+ 	position: absolute;
+ 	left: 50%;
+  	margin-left: -60px;
+  	margin-top: 50px;
 
 }
 
 #contactForm h3
 {
 	display: flex;
-	background-color: #696969;
+	/*background-color: #696969;*/
 	width: 428px;
 	height: 736px;
 	margin: 50px;
+	justify-content: center;
+}
+
+#contactUi
+{
+	margin-top: 30px;
+}
+
+
+input, textarea
+{
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 0.5px solid black;
+  color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#messages
+{
+  width: 300px;
+  height: 200px;
+}
+
+#submit
+{
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 50px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: blue;
+  font-size: 15px;
+  border: 2px solid black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#bgimg
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1440px;
+	margin: 0 auto;
+	background-color: #dcdcdc;
+	position: relative;
+	z-index: -2;
 }
 
 /*#bgimg
 {
+
 	justify-content: center;
 	width: 1440px;
 	position: absolute;
@@ -1248,12 +1343,13 @@ div a {
 
 #mainFootercontact
 {	
+	width: 1440px;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
-	position: absolute;
+	justify-content: center;
 	height: 545px;
 	width: 1440px;
-	margin-top: 100px;
 	background-color: #696969;
 }
 
