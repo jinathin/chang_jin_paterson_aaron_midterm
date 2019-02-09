@@ -8,11 +8,18 @@
 	display: none;
 }
 
-/* Scaffold Color s in grays dark to light below. */
-/* #A9A9A9 */ 
-/* #696969 */
-/* #282828 */
-/* #DCDCDC */
+/* sky blue && greens */
+/* b8ecd9 */
+/* 083642 */
+/* b0df49 */
+/* cdf0a7 */
+ /* 476c5f */
+
+
+/* Logo Greens below */
+/* 9abd4b */
+/* 5d7132*/
+/* d8ae58 */
 
 /*font-family: 'Noticia Text', serif; */
 /*font-family: 'Source Sans Pro', sans-serif; */
@@ -166,7 +173,7 @@ div a {
 	background: green;
 
 }
-
+/* Hover */
 #mainNav ul li a:hover
 {
 	display: block;
@@ -178,7 +185,7 @@ div a {
 	padding: 11px;
 	font-size: 13px;
 	border-radius: 77px;
-	background: green;
+	background: red;
 
 }
 

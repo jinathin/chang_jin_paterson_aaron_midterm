@@ -1,1 +1,9 @@
-# chang_jin_paterson_aaron_midterm
+# Midterm project from Jin && Aaron 
+
+Alwasy Commit changes.
+Aaron - Debugg the mainNav
+
+
+
+
+
