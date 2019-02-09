@@ -18,7 +18,7 @@
 
 body
 {
-	font-family: 'Helvetica', Arial, sans-serif;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
 
 }
 
@@ -879,15 +879,72 @@ input, textarea
 	z-index: -2;
 }
 
-/*#bgimg
-{
+/*end of the project page*/
 
-	justify-content: center;
-	width: 1440px;
-	position: absolute;
-	top: 1700px;
-	z-index: -2;
-}*/
+
+/*Project page section*/
+.projectPage
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 120px;
+}
+
+#projectTitle
+{
+	display: flex;
+
+}
+
+
+/*
+#bodyTitle 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 656px;
+	height: 105px;
+	background-color: #a9a9a9;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+#bodyTitle h3
+{
+	font-family: 'Noticia Text', serif;
+	font-size: 36px;
+	margin: 10px;
+	
+}
+
+#bodyTitle h4
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 19px;
+	margin-top: 22px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* question section */
@@ -1353,6 +1410,7 @@ input, textarea
 	width: 1440px;
 	background-color: #696969;
 }
+
 
 
 /*for future uses maybe

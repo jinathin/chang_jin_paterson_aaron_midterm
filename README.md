@@ -1,4 +1,4 @@
-# Midterm project from Jin and Aaron
+# Midterm project from Jin && Aaron
 
 Jin's readme checkpoints 
 
