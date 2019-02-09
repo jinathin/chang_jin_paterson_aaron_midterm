@@ -1,0 +1,666 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"marign",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"Back",
+				"background-color\tproperty"
+			],
+			[
+				"magin",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"bACK",
+				"background-color\tproperty"
+			],
+			[
+				"pso",
+				"position\tproperty"
+			],
+			[
+				"exe",
+				"executiveNam"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"border",
+				"border-top\tproperty"
+			],
+			[
+				"sp",
+				"space-around\tjustify-content"
+			],
+			[
+				"fo",
+				"font-synthesis\tproperty"
+			],
+			[
+				"bot",
+				"bottom\tproperty"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"bro",
+				"border-radius\tproperty"
+			],
+			[
+				"margn",
+				"margin-top\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"backgroun",
+				"background-size\tproperty"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"spa",
+				"space-around\tjustify-content"
+			],
+			[
+				"feat",
+				"featuredImage"
+			],
+			[
+				"img",
+				"images"
+			],
+			[
+				"c",
+				"column\tflex-direction"
+			],
+			[
+				"all",
+				"allMyicons"
+			],
+			[
+				"log",
+				"logIconId"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"Creditcard",
+				"creditcard"
+			],
+			[
+				"marin",
+				"margin-top\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"text-do",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"borderr",
+				"border-radius\tproperty"
+			],
+			[
+				"z-n",
+				"z-index\tproperty"
+			],
+			[
+				"scr",
+				"scrollScalar"
+			],
+			[
+				"tran",
+				"translations"
+			],
+			[
+				"pa",
+				"parallaxOffset"
+			],
+			[
+				"par",
+				"parallaxElements"
+			],
+			[
+				"to",
+				"totalScrollHeight"
+			],
+			[
+				"coll",
+				"collection"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"j",
+				"justify-content\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"text-d",
+				"text-decoration\tproperty"
+			],
+			[
+				"text-de",
+				"text-decoration\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"zin",
+				"z-index\tproperty"
+			],
+			[
+				"zi",
+				"z-index\tproperty"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"pie",
+				"pierre-chatel-innocenti-483198-unsplash"
+			],
+			[
+				"list-t",
+				"list-style\tproperty"
+			],
+			[
+				"women_",
+				"women_1924"
+			],
+			[
+				"col",
+				"colors"
+			],
+			[
+				"meda",
+				"Medals"
+			],
+			[
+				"wme",
+				"women_1924"
+			],
+			[
+				"fel",
+				"flex-start\tjustify-content"
+			],
+			[
+				"tealbul",
+				"teal_bulb"
+			],
+			[
+				"app",
+				"appending"
+			],
+			[
+				"wome",
+				"women_1924"
+			],
+			[
+				"men_",
+				"men_1924"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"pla",
+				"playerLives"
+			],
+			[
+				"ran",
+				"randint"
+			],
+			[
+				"cho",
+				"choices"
+			],
+			[
+				"com",
+				"computer_choice"
+			],
+			[
+				"pal",
+				"playerLives"
+			],
+			[
+				"comp",
+				"compLives"
+			],
+			[
+				"play",
+				"playerLives"
+			],
+			[
+				"backgroundc",
+				"background-color\tproperty"
+			],
+			[
+				"colle",
+				"Collections"
+			],
+			[
+				"luc",
+				"stockholm-design-week-platform-sofa-lucy-kurrein-offect-furniture_dezeen_hero-wide"
+			],
+			[
+				"collect",
+				"Collection"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"pda",
+				"padding-top\tproperty"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"pos",
+				"pos:a\tposition:absolute"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"grid-tmep",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-clo",
+				"grid-column-end\tproperty"
+			],
+			[
+				"grid-t",
+				"grid-template-columns\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Toggle Comment"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Juniha/Desktop/chang_jinw_paterson_aaron_1056_Project3/css/main.css",
+		"/Users/Juniha/Desktop/chang_jinw_paterson_aaron_1056_Project3/index.html",
+		"/Users/Juniha/Desktop/chang_jinw_paterson_aaron_1056_Project3/project.html",
+		"/Users/Juniha/Desktop/chang_jinw_paterson_aaron_1056_Project3/about.html",
+		"/Users/Juniha/Desktop/paterson_a_chang_j_ambiDance/css/main.css",
+		"/Users/Juniha/Desktop/paterson_a_chang_j_ambiDance/index.html",
+		"/Users/Juniha/Desktop/chang_jin_paterson_aaron_1056_Project3/index.html",
+		"/Users/Juniha/Desktop/chang_jin_paterson_aaron_1056_Project3/about.html",
+		"/Users/Juniha/Desktop/chang_jin_paterson_aaron_1056_Project3/css/main.css",
+		"/Users/Juniha/Desktop/chang_jin_paterson_aaron_1056_Project3/README.md",
+		"/Users/Juniha/Desktop/paterson_a_chang_j_ambiDance/README.md",
+		"/Users/Juniha/Desktop/paterson_a_chang_j_ambiDance/js/main.js",
+		"/Users/Juniha/Desktop/paterson_a_chang_j_ambiDance/images/beach-blur-clouds-462030.jpg",
+		"/Users/Juniha/Desktop/paterson_a_chang_j_ambiDance/images/background1.jpg",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/css_reset/index.html",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_Project3/css/main.css",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_Project3/index.html",
+		"/Users/Juniha/Desktop/FANSHAWE/Trevor/svg_onClick/paterson_a_SVG/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/Trevor/svg_onClick/paterson_a_SVG/index.html",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_Project3/README.md",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Submissions/paterson_aaron_1056_Project2/index.html",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_Project2/README.md",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_Project2/css/main.css",
+		"/Users/Juniha/Desktop/paterson_aaron_mahoganySite/README.md",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Submissions/paterson_aaron_1056_Project2/css/main.css",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_Project2/index.html",
+		"/Users/Juniha/Desktop/Typography/index.html",
+		"/Users/Juniha/Desktop/Typography/css/main.css",
+		"/Applications/MAMP/htdocs/Typography/css/main.css",
+		"/Applications/MAMP/htdocs/Typography/index.html",
+		"/Applications/MAMP/htdocs/Typography/css/reset.css",
+		"/Users/Juniha/Desktop/FANSHAWE/Trevor/paterson_a_SVG/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/Trevor/paterson_a_SVG/js/main.js",
+		"/Users/Juniha/Desktop/FANSHAWE/Trevor/paterson_a_SVG/index.html",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_project1/README.md",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_project1/index.html",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_project1/js/main.js",
+		"/Users/Juniha/Desktop/paterson_aaron_1056_project1/css/main.css",
+		"/Users/Juniha/Desktop/paterson_a_SVG/index.html",
+		"/Users/Juniha/Desktop/paterson_a_SVG/images/car.svg",
+		"/Users/Juniha/Desktop/paterson_a_SVG/css/main.css",
+		"/Users/Juniha/Desktop/paterson_a_SVG/images/bargraph.svg",
+		"/Users/Juniha/Desktop/paterson_a_SVG/README.md",
+		"/Users/Juniha/Desktop/paterson_a_SVG/css/reset.css",
+		"/Applications/MAMP/htdocs/Mahogany/css/main.css",
+		"/Applications/MAMP/htdocs/Mahogany/js/parallax.js",
+		"/Applications/MAMP/htdocs/Mahogany/index.html",
+		"/Applications/MAMP/htdocs/Mahogany/collection.html",
+		"/Applications/MAMP/htdocs/Mahogany/blog.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Mahogany/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Mahogany/js/bower.json",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Mahogany/blog.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Mahogany/collection.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Mahogany/index.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Mahogany/js/parallax.min.js",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/Mahogany/js/parallax.js",
+		"/Users/Juniha/Desktop/paterson_a_kandych_y_dataMedals/canadaWorld.py",
+		"/Users/Juniha/Desktop/paterson_a_kandych_y_dataMedals/canadaCompeting.py",
+		"/Users/Juniha/Desktop/paterson_a_kandych_y_dataMedals/canadaWinning.py",
+		"/Users/Juniha/Desktop/paterson_a_kandych_y_dataMedals/README.md",
+		"/Users/Juniha/Desktop/paterson_a_kandych_y_dataMedals/bar_stacked.py",
+		"/Users/Juniha/Desktop/chang_k_paterson_a_final_integrated_neue/css/main.css",
+		"/Users/Juniha/Desktop/chang_k_paterson_a_final_integrated_neue/README.md",
+		"/Users/Juniha/Desktop/chang_k_paterson_a_final_integrated_neue/index.html",
+		"/Users/Juniha/Desktop/chang_k_paterson_a_final_integrated_neue/contact.html",
+		"/Users/Juniha/Desktop/chang_k_paterson_a_final_integrated_neue/gallery.html",
+		"/Users/Juniha/Desktop/final_integrated_neue/css/main.css",
+		"/Users/Juniha/Desktop/final_integrated_neue/README.md",
+		"/Users/Juniha/Desktop/final_integrated_neue/index.html",
+		"/Users/Juniha/Desktop/final_integrated_neue/contact.html",
+		"/Users/Juniha/Desktop/final_integrated_neue/gallery.html",
+		"/Users/Juniha/Desktop/python_DataViz_B/README.md",
+		"/Users/Juniha/Desktop/python_DataViz_B/medalCount.py",
+		"/Users/Juniha/Desktop/python_DataViz_B/canadaWorld.py",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_flex_box_partial/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_flex_box_partial/index.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_flex_box_partial/gallery.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_flex_box_partial/contact.html",
+		"/Users/Juniha/Desktop/python_Datavis-master/datavis.py",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_prototype/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_prototype/index.html",
+		"/Users/Juniha/Desktop/akumal_prototype/css/main.css",
+		"/Users/Juniha/Desktop/akumal_prototype/index.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_flex_box_shell/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_flex_box_shell/index.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_flex_box_shell/gallery.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/akumal_flex_box_shell/contact.html",
+		"/Users/Juniha/Desktop/justified_content/css/main.css",
+		"/Users/Juniha/Desktop/justified_content_2/index.html",
+		"/Users/Juniha/Desktop/justified_content/index.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/justified_content/index.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/justified_content/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/absolute/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/absolute/index.html",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/relative/css/main.css",
+		"/Users/Juniha/Desktop/FANSHAWE/De Luca/ In Class/relative/index.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
