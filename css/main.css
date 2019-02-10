@@ -11,7 +11,7 @@
 /* Colour Palette */
 /* sky blue && greens */
 /* b8ecd9 */
-/* 083642 */
+/* 083642 dark blue */
 /* b0df49  dark blue */
 /* cdf0a7 */
  /* 476c5f */
@@ -95,8 +95,8 @@ div a {
 }
 
 #socialMedia ul li{
-	filter: gray; /*for IE6-9*/
-	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+	filter: brightness(0.30); /*for IE6-9*/
+	-webkit-filter: brightness(100%); /* Chrome 19+ & Safari 6+ */
 	list-style: none;
 	display: inline;
 	padding: 7px;
@@ -105,7 +105,7 @@ div a {
 
 #socialMedia ul li:hover{	
   filter: none;
-  -webkit-filter: grayscale(0%);
+  -webkit-filter: brightness(0%);
 }
 
 /* put DIVs the the siteContianer */
@@ -466,7 +466,7 @@ div a {
 
 .fundingText
 {
-	width: 500px;
+	width: 600px;
 	height: 50px;
 	text-align: center;
 	color: #fff;
@@ -544,14 +544,13 @@ div a {
 
 }
 /* shop end */
-
 /* newsfeed start */
 .newsfeedCon
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	background-color: #b8ecd9;
+	background-color: #cdf0a7;
 	margin-bottom: 110px;
 
 }
@@ -669,7 +668,15 @@ div a {
 
 }
 
+.socialmediaIcons
+{	
+	width: 180px;
+	height: 28px;
+	position: relative;
+	bottom: 30px;
+}
 
+/*  this is about section */
 .volunteerNam
 {
 	letter-spacing: 0.03em;
@@ -703,14 +710,7 @@ div a {
 
 }
 
-.socialmediaIcons
-{	
-	width: 180px;
-	height: 28px;
-	position: relative;
-	bottom: 30px;
-	background-color: #696969;
-}
+/* about section area */
 
 /* volunteer end */
 /* partner start */
@@ -724,22 +724,24 @@ div a {
 
 #partnerTitle
 {
-	width: 250px;
-	height: 36px;
+	font-family: 'Noticia Text', Georgia, serif;
+	font-weight: 700;
+	font-size: 36px;
+	height: 65px;
+	letter-spacing: 0.03em;
 	text-align: center;
-	color: #696969;
-	margin-bottom: 30px;
-	background-color: #696969;
+	margin: 0 auto;	
+	margin-top: 0px;
+	margin-bottom: 0px;
 
 }
 
 .partnerText
 {
-	width: 600px;
+	width: 370px;
 	height: 50px;
 	text-align: center;
 	color: #696969;
-	background-color: #696969;
 	margin-bottom: 50px;
 }
 
@@ -756,7 +758,7 @@ div a {
 	width: 160px;
 	height: 50px;
 	margin: 40px;
-	background-color: #282828;
+
 }
 
 /* partner end */
@@ -766,12 +768,13 @@ div a {
 .questionSection
 {
 	width: 1020px;
-	height: 110px;
-	position: relative;
-	margin: 0 auto;
+	height: 110px;	
 	bottom: 50px;
-	background-color: #dcdcdc;
+	position: relative;
 	justify-content: space-evenly;
+	margin: 0 auto;
+	background-color: #dcdcdc;
+	
 }
 
 .haveQuestion
@@ -786,9 +789,8 @@ div a {
 {
 	width: 200px;
 	height: 20px;
-	margin-bottom: 14px;
 	font-size: 16px;
-	background-color: #696969;
+	margin-bottom: 14px;
 
 }
 
@@ -796,8 +798,10 @@ div a {
 {
 	width: 240px;
 	height: 30px;
-	font-size: 16px;
-	background-color: #282828;
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 0.02em;
+
 }
 
 #questionNumber
@@ -841,7 +845,8 @@ div a {
 {
 	width: 111px;
 	height: 30px;
-	background-color: #696969;
+	font-weight: 600;
+	font-size: 32px;
 }
 /* question end  */
 
@@ -920,7 +925,6 @@ div a {
 
 
 /*copyright start */
-
 #copyRight
 {	
 
@@ -928,7 +932,7 @@ div a {
 	width: 1440px;
 	height: 56px;
 	margin-top: 540px;
-	background-color: #dcdcdc;
+	background-color: #9abd4b;
 }
 
 .copyrightCopy 
@@ -944,7 +948,6 @@ div a {
 {
 	width: 200px;
 	height: 25px;
-	background-color: #696969;
 
 }
 
@@ -997,25 +1000,6 @@ div a {
 	width: 360px;
 	height: 598px;
 	background-color: #a9a9a9;
-
-}
-/* executive profile columns */
-.executiveSection
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border-bottom: 1px solid #000;
-}
-/* section title on the right side */
-#executiveTitle
-{	
-	margin-right: auto;
-	width: 650px;
-	height: 36px;
-	background-color: #696969;
-	margin-top: 90px;
-	margin-bottom: 40px;
 
 }
 
@@ -1071,90 +1055,15 @@ div a {
 	align-items: center;
 }
 
-/* TRAA Executives && Volunteer Committee Chairs*/
-#executiveCon-1
-{
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-}
-
-#executiveCon-1 h3
-{
-	margin-left: revert;
-
-}
-
-#executiveCon-2
-{
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-	margin-top: 40px;
-}
-/* TRAA Committee section title */
-#executiveCon-2 h3
-{
-	margin-left: revert;
-}
-
-
-.executiveNam
-{
-	letter-spacing: 0.03em;
-	font-size: 16px;
-	font-weight: bold;
-	text-align: left;
-}
-
-/* Just the normal title */
-.rankTitle
-{
-	letter-spacing: 0.03em;
-	color: #979797;
-	margin-top: 60px;
-	text-align: left;
-}
-
-.committeeSection
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-top: 40px;
-}
-
-/* about page volunteer section */
-#profileconUpper
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 1120px;
-	height: 400px;
-	margin-top: 50px;
-}
-
-/* about page volunteer section */
-#profileconLower
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 1120px;
-	height: 400px;
-	margin-top: 50px;
-}
-
 /* home page profile */
 #profileCon
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 760px;
+	width: 1040px;
 	height: 400px;
-	margin-top: 90px;
+	margin-top: 50px;
 
 }
 
@@ -1279,6 +1188,6 @@ div a {
 	height: 545px;
 	width: 1440px;
 	margin-top: 5400px;
-	background-color: #476c5f;
+	background-color: #566831;
 
 }
