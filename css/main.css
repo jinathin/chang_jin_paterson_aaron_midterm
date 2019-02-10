@@ -12,7 +12,7 @@
 /* sky blue && greens */
 /* b8ecd9 */
 /* 083642 */
-/* b0df49 */
+/* b0df49  dark blue */
 /* cdf0a7 */
  /* 476c5f */
  /* 35700d  hover green */
@@ -27,7 +27,7 @@
 /*font-family: 'Source Sans Pro', sans-serif; */
 body
 {
-	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-family: 'Source Sans Pro', Georgia, sans-serif;
 
 }
 
@@ -150,7 +150,6 @@ div a {
 
 }
  
-
 #mainNav ul
 {
 	display: flex;
@@ -225,7 +224,7 @@ div a {
 /* Title */
 #featureStack h3{
 	width: 410px;
-	font-family: 'Noticia Text', Arial, Sans-serif;
+	font-family: 'Noticia Text', Georgia, sans-serif;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 50px;
@@ -288,7 +287,7 @@ div a {
 #projectSection h3
 {
 	
-	font-family: 'Noticia Text', Arial, Sans-serif;
+	font-family: 'Noticia Text', Georgia, sans-serif;
 	font-weight: 700;
 	font-size: 36px;
 	height: 65px;
@@ -329,6 +328,10 @@ div a {
 
 .projectCon h2 
 {
+	font-family: 'Noticia Text', Georgia, serif;
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: 0.03em;
 	margin-top: 60px;
 	margin-bottom: 35px;
 	text-align: center;
@@ -338,9 +341,8 @@ div a {
 #projectImage1, #projectImage2 
 {	
 	width: 500px;
-	height: 300px;
+	height: 350px;
 	margin: 0 auto;
-	background-color: #282828;
 }
 
 .projectText
@@ -376,51 +378,61 @@ div a {
 /* section buttons */
 .projBut
 {
-	background-color: #dcdcdc;
 	font-weight: bold;
 	display: block;
 	width: 170px;
 	padding: 15px;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 20px;
 	border-radius: 25px;
 	color: #fff;
+	background-color: #9abd4b;
+	-webkit-transition: color 0.4s ease-out;
+  	-moz-transition: color 0.4s ease-out;
+  	-o-transition: color 0.4s ease-out;
+  	transition: color 0.4s ease-out;
 	
 }
 
 .projBut:Hover
 {
-	background-color: #696969;
+	color: #fff;
+	background-color: #35700d;
 }
 
-/* Funding start */
+/* Funding start: using the image as the background ; */
 .fundingSection
 {
 	display: flex;
 	flex-direction: row;
 	height: 500px;
-	margin-bottom: 760px;
-	background-color: #a9a9a9; 
+	margin-bottom: 110px;
+	background: url('../images/filip-mroz-169103-unsplash_opt.jpg') center no-repeat; 
 }
 
 
 .fundBut
 {
-	background-color: #dcdcdc;
 	font-weight: bold;
 	display: block;
 	width: 170px;
 	padding: 15px;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 20px;
 	border-radius: 25px;
 	color: #fff;
+	background-color: #9abd4b;
+	-webkit-transition: color 0.4s ease-out;
+  	-moz-transition: color 0.4s ease-out;
+  	-o-transition: color 0.4s ease-out;
+  	transition: color 0.4s ease-out;
 	
 }
 
 .fundBut:Hover{
-	background-color: #696969;
 
+	color: #fff;
+	background-color: #35700d;
 }
 
 #fundingCon
@@ -432,20 +444,32 @@ div a {
 	margin-top:150px;
 }
 
+#fundingCon h3
+{
+	font-family: 'Noticia Text', Georgia, serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #fff;
+	letter-spacing: 0.03em;
+	margin-bottom: 35px;
+	text-align: center;
+
+}
+
 #fundingTitle
 {
 	width: 250px;
 	height: 36px;
 	margin-bottom: 30px;
-	background-color: #696969;
 
 }
 
 .fundingText
 {
-	width: 600px;
+	width: 500px;
 	height: 50px;
-	background-color: #696969;
+	text-align: center;
+	color: #fff;
 	margin-bottom: 40px;
 }
 /* Funding End */
@@ -454,10 +478,22 @@ div a {
 #shopCon
 {
 	display: flex;
-	flex-direction; row;
-	position: absolute;
-	margin-top: 2625px;
+	flex-direction: row;
+	margin-bottom: 130px;
 }
+
+#shopTitle
+{
+	font-family: 'Noticia Text', Georgia, sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	height: 65px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 55px;
+}
+
 
 #shopImage
 {	
@@ -475,28 +511,36 @@ div a {
 
 #shopImageDesc
 {
-	width: 360px;
-	height: 410px;
-	background-color: #a9a9a9;
+	width: 375px;
 
+}
+
+#shopStack p
+{
+	margin-bottom: 20px;
 }	
 
 .shopBut
 {
-	background-color: #dcdcdc;
 	font-weight: bold;
 	display: block;
 	width: 170px;
 	padding: 15px;
 	text-align: center;
-	margin-top: 30px;
 	border-radius: 25px;
 	color: #fff;
+	background-color: #9abd4b;
+	-webkit-transition: color 0.4s ease-out;
+  	-moz-transition: color 0.4s ease-out;
+  	-o-transition: color 0.4s ease-out;
+  	transition: color 0.4s ease-out;
 	
 }
 
-.shopBut:Hover{
-	background-color: #696969;
+.shopBut:Hover
+{
+	color: #fff;
+	background-color: #35700d;
 
 }
 /* shop end */
@@ -507,7 +551,7 @@ div a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	background-color: #dcdcdc;
+	background-color: #083642;
 	margin-bottom: 110px;
 
 }
@@ -520,27 +564,28 @@ div a {
 
 .newsfeedCon h3
 {
-	width: 212px;
+	font-family: 'Noticia Text', Georgia, sans-serif;
+	font-weight: 700;
+	font-size: 36px;
 	height: 65px;
-	margin: 0 auto;
-	background-color: #696969;
-	margin-top: 70px;
-	margin-bottom: 38px;
-	ma
-}
-
-#newsfeedTitle
-{
+	letter-spacing: 0.03em;
 	text-align: center;
+	margin: 0 auto;	
+	margin-top: 70px;
+	margin-bottom: 20px;
+
+
 }
 
 .newsfeedText
 {
+
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 24px;
 	width: 600px;
 	height: 50px;
-	background-color: #696969;
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	margin: 0 auto;
 }
 /* side by side feeds */
@@ -1241,7 +1286,7 @@ div a {
 	position: absolute;
 	height: 545px;
 	width: 1440px;
-	margin-top: 5275px;
-	background-color: #696969;
+	margin-top: 5400px;
+	background-color: #083642;
 
 }
