@@ -224,7 +224,7 @@ div a {
 /* Title */
 #featureStack h3{
 	width: 410px;
-	font-family: 'Noticia Text', Georgia, sans-serif;
+	font-family: 'Noticia Text', Georgia, serif;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 50px;
@@ -287,7 +287,7 @@ div a {
 #projectSection h3
 {
 	
-	font-family: 'Noticia Text', Georgia, sans-serif;
+	font-family: 'Noticia Text', Georgia, serif;
 	font-weight: 700;
 	font-size: 36px;
 	height: 65px;
@@ -484,7 +484,7 @@ div a {
 
 #shopTitle
 {
-	font-family: 'Noticia Text', Georgia, sans-serif;
+	font-family: 'Noticia Text', Georgia, serif;
 	font-weight: 700;
 	font-size: 36px;
 	height: 65px;
@@ -551,7 +551,7 @@ div a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	background-color: #083642;
+	background-color: #b8ecd9;
 	margin-bottom: 110px;
 
 }
@@ -564,7 +564,7 @@ div a {
 
 .newsfeedCon h3
 {
-	font-family: 'Noticia Text', Georgia, sans-serif;
+	font-family: 'Noticia Text', Georgia, serif;
 	font-weight: 700;
 	font-size: 36px;
 	height: 65px;
@@ -573,8 +573,6 @@ div a {
 	margin: 0 auto;	
 	margin-top: 70px;
 	margin-bottom: 20px;
-
-
 }
 
 .newsfeedText
@@ -623,11 +621,15 @@ div a {
 
 #volunteerTitle
 {	
-	width: 212px;
-	height: 36px;
+	font-family: 'Noticia Text', Georgia, serif;
+	font-weight: 700;
+	font-size: 36px;
+	height: 65px;
+	letter-spacing: 0.03em;
 	text-align: center;
-	background-color: #696969;
-	margin: 0 auto;
+	margin: 0 auto;	
+	margin-top: 0px;
+	margin-bottom: 0px;
 
 }
 
@@ -650,17 +652,6 @@ div a {
 
 }
 
-.profileImage
-{
-	width: 120px;
-	height: 120px;
-	position: relative;
-	top: 40px;
-	border-radius: 100px;
-	margin: 0 auto;
-	background-color: #696969;
-}
-
 /* Social Media */
 .socialProfile
 {	
@@ -671,7 +662,11 @@ div a {
 	width: 230px;
 	margin-bottom: 55px;	
 	border-radius: 4px;
-	background-color: #dcdcdc;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+            0 2px 4px 0 rgba(0,0,0,0.08);
+
+
 }
 
 
@@ -725,7 +720,6 @@ div a {
 	flex-direction: column;
 	align-items: center;
 	margin: 0 auto;
-/*	margin-top: 135px;*/
 }
 
 #partnerTitle
@@ -950,7 +944,6 @@ div a {
 {
 	width: 200px;
 	height: 25px;
-	margin-left: ;
 	background-color: #696969;
 
 }
@@ -1180,7 +1173,7 @@ div a {
 	margin-top: 80px;
 }
 
-.profileImage
+.profileImage img
 {
 	width: 120px;
 	height: 120px;
@@ -1188,7 +1181,6 @@ div a {
 	top: 40px;
 	border-radius: 100px;
 	margin: 0 auto;
-	background-color: #696969;
 }
 
 /* home page volunteer title */
@@ -1287,6 +1279,6 @@ div a {
 	height: 545px;
 	width: 1440px;
 	margin-top: 5400px;
-	background-color: #083642;
+	background-color: #476c5f;
 
 }
