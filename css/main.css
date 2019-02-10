@@ -1,4 +1,4 @@
-@charset"UTF-8";
+ @charset"UTF-8";
 /*CSS Doc*/
 
 /* comments */
@@ -8,17 +8,25 @@
 	display: none;
 }
 
-/* Scaffold Colors in grays dark to light below. */
-/* #A9A9A9 */ 
-/* #696969 */
-/* #282828 */
-/* #DCDCDC */
+/* sky blue && greens */
+/* b8ecd9 */
+/* 083642 */
+/* b0df49 */
+/* cdf0a7 */
+ /* 476c5f */
 
 
+/* Logo Greens below */
+/* 9abd4b */
+/* 5d7132 */
+/* d8ae58 */
 
+/*font-family: 'Noticia Text', serif; */
+/*font-family: 'Source Sans Pro', sans-serif; */
 body
 {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
+
 
 }
 
@@ -38,7 +46,6 @@ a:any-link
 div a {
 	font-size: 12px;
 }
-
 
 
 /* This will fill all my content */
@@ -133,600 +140,10 @@ div a {
 	flex-direction: row;
 }
 
-/* hover for later */
-/*#mainNav ul li a
-{
-	display: block;
-	width: 100px;
-	color: #fff;
-	background-color: red;
-	margin-left: 20px;
-	text-align: center;
-	padding: 8px;
-	font-size: 16px;
-	border-radius: 7px;
-<<<<<<< HEAD
-	background: #cff3019;
-=======
-	background: #ff3019;
->>>>>>> dev.jc.scaf
 
-}
-*/
 
-#featuredCon
-{
-	display: flex;
-	flex-direction; row;
-	position: absolute;
-	margin-top: 370px;
-}
+/*contact page section*/
 
-#featuredImage
-
-{	
-	height: 510px;
-	width: 732px;
-	background-color: #282828;
-	margin-right: 60px;
-}
-
-#featuredImageDesc
-{
-	width: 360px;
-	height: 320px;
-	margin-top: 70px;
-	background-color: #a9a9a9;
-
-}	
-
-#featureStack{
-	display: flex;
-	flex-direction: column;
-}
-
-.featBut
-{
-	background-color: #dcdcdc;
-	font-weight: bold;
-	display: block;
-	width: 170px;
-	padding: 15px;
-	text-align: center;
-	margin-top: 20px;
-	border-radius: 25px;
-	color: #fff;
-	
-}
-
-.featBut:Hover
-{
-	background-color: #696969;
-}
-
-	
-#featureStack{
-	display: flex;
-	flex-direction: column;
-}
-
-/* Space create within the body */
-.space
-{
-	margin-bottom: 700px;
-}
-
-.aboutSpace
-{
-	margin-bottom: 820px;
-}
-
-/*  title header for the section */
-#aboutSection
-{
-	margin-top: 140px;
-
-}
-
-#aboutSection h3
-{	
-
-	width: 611px;
-	height: 65px;
-	color: #696969;
-	text-align: center;
-	background-color: #696969;
-	margin: 0 auto;
-	margin-top: 10px;
-
-}
-
-/* project section container */
-#projectSection
-
-{	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 auto;
-	height: 240px;
-}
-
-#projectSection h3
-{	
-	height: 65px;
-	color: #696969;
-	text-align: center;
-	background-color: #696969;
-	margin: 0 auto;
-	margin-bottom: 38px;
-}
-
-#projectSection p
-{
-	width: 852px;
-	height: 60px;
-	color: #000;
-	font-size: 16px;
-	text-align: center;
-	background-color: #696969;
-	margin: 0 auto;
-	
-}
-
-/* two boxes on each side */
-.projectCon
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 120px;	
-}
-
-/* project section container */
-
-#contactPage
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 120px;	
-}
-
-
-.projectCon h2 
-{
-	margin-top: 60px;
-	margin-bottom: 35px;
-	text-align: center;
-}
-
-/* section container */
-#projectImage1, #projectImage2 
-{	
-
-	width: 500px;
-	height: 300px;
-	margin: 0 auto;
-	background-color: #282828;
-}
-
-.projectText
-{	width: 325px;
-	text-align: center;
-}
-
-/* center the containter to the wrapper projectCon */
-.troutCon
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-/* psuh the button down */
-.troutCon a
-{
-	margin-top: 40px;
-}
-
-.rodCon
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-/* push the button down */
-.rodCon a
-{
-	margin-top: 40px;
-}
-
-/* section buttons */
-.projBut
-{
-	background-color: #dcdcdc;
-	font-weight: bold;
-	display: block;
-	width: 170px;
-	padding: 15px;
-	text-align: center;
-	margin-top: 10px;
-	border-radius: 25px;
-	color: #fff;
-	
-}
-
-.projBut:Hover
-{
-	background-color: #696969;
-}
-
-/* Funding start */
-.fundingSection
-{
-	display: flex;
-	flex-direction: row;
-	height: 500px;
-	margin-bottom: 760px;
-	background-color: #a9a9a9; 
-}
-
-
-.fundBut
-{
-	background-color: #dcdcdc;
-	font-weight: bold;
-	display: block;
-	width: 170px;
-	padding: 15px;
-	text-align: center;
-	margin-top: 10px;
-	border-radius: 25px;
-	color: #fff;
-	
-}
-
-.fundBut:Hover{
-	background-color: #696969;
-
-}
-
-#fundingCon
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0 auto;
-	margin-top:150px;
-}
-
-#fundingTitle
-{
-	width: 250px;
-	height: 36px;
-	margin-bottom: 30px;
-	background-color: #696969;
-
-}
-
-.fundingText
-{
-	width: 600px;
-	height: 50px;
-	background-color: #696969;
-	margin-bottom: 40px;
-}
-/* Funding End */
-
-/* Shop start */
-#shopCon
-{
-	display: flex;
-	flex-direction; row;
-	position: absolute;
-	margin-top: 2625px;
-}
-
-#shopImage
-{	
-	height: 510px;
-	width: 732px;
-	background-color: #282828;
-	margin-right: 60px;
-}
-
-#shopStack{
-	display: flex;
-	flex-direction: column;
-
-}
-
-#shopImageDesc
-{
-	width: 360px;
-	height: 410px;
-	background-color: #a9a9a9;
-
-}	
-
-.shopBut
-{
-	background-color: #dcdcdc;
-	font-weight: bold;
-	display: block;
-	width: 170px;
-	padding: 15px;
-	text-align: center;
-	margin-top: 30px;
-	border-radius: 25px;
-	color: #fff;
-	
-}
-
-.shopBut:Hover{
-	background-color: #696969;
-
-}
-/* shop end */
-
-/* newsfeed start */
-.newsfeedCon
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	background-color: #dcdcdc;
-	margin-bottom: 110px;
-
-}
-
-/* center content inside its container  */
-.newsfeed
-{	
-	margin: 0 auto;
-}
-
-
-.newsfeedCon h3
-{
-	width: 212px;
-	height: 65px;
-	margin: 0 auto;
-	background-color: #696969;
-	margin-top: 70px;
-	margin-bottom: 38px;
-	ma
-}
-
-#newsfeedTitle
-{
-	text-align: center;
-}
-
-.newsfeedText
-{
-	width: 600px;
-	height: 50px;
-	background-color: #696969;
-	text-align: center;
-	margin-bottom: 40px;
-	margin: 0 auto;
-}
-/* side by side feeds */
-.juxtaSocial
-{
-	display: flex;
-	flex-direction: row;
-	margin-top: 60px;
-	margin-bottom: 60px;
-}
-
-.fb-comment-embed
-{
-	width:400px;
-	height: 450px;
-	margin-right: 60px;
-	background-color: #696969;
-}
-
-.twitter-comment-embed
-{
-	width:400px;
-	height: 450px;
-	background-color: #696969;
-}
-
-
-/* volunteer start */
-.volunteerSection
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-#volunteerTitle
-{	
-	width: 212px;
-	height: 36px;
-	text-align: center;
-	background-color: #696969;
-	margin: 0 auto;
-
-}
-
-#volunteerCon
-{
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-}
-
-#profileCon
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 760px;
-	height: 400px;
-	margin-top: 90px;
-
-}
-
-#profileconUpper
-{
-	display: flex;
-	width: 900px;
-	height: 400px;
-}
-
-
-#profileconLower
-{
-	display: flex;
-	width: 900px;
-	height: 350px;
-	margin-top: 0px;
-}
-
-.profileImage
-{
-	width: 120px;
-	height: 120px;
-	position: relative;
-	top: 40px;
-	border-radius: 100px;
-	margin: 0 auto;
-	background-color: #696969;
-}
-
-/* Social Media */
-.socialProfile
-{	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	width: 230px;
-	margin-bottom: 55px;	
-	border-radius: 4px;
-	background-color: #dcdcdc;
-}
-
-
-.volunteerNam
-{
-	letter-spacing: 0.03em;
-	font-size: 19px;
-	border-top: 1px solid #696969;
-	padding-top: 13px;
-	margin-top: 60px;
-}
-
-/* Just the normal */
-.justVolunteer
-{
-	letter-spacing: 0.03em;
-	color: #979797;
-	margin-bottom: 70px;
-}
-
-.socialProfile #volunteetNam
-{
-	width: 160px;
-	text-align: center;
-	margin: 0 auto;
-	border-top: 1px solid #696969;
-}
-
-.executiveProfile
-{
-	width: 160px;
-	text-align: center;
-	margin: 0 auto;
-
-}
-
-.socialmediaIcons
-{	
-	width: 180px;
-	height: 28px;
-	position: relative;
-	bottom: 30px;
-	background-color: #696969;
-}
-
-.volBut
-{
-	background-color: #dcdcdc;
-	font-weight: bold;
-	display: block;
-	width: 170px;
-	padding: 15px;
-	text-align: center;
-	margin: 0 auto;
-	border-radius: 25px;
-	color: #fff;
-	
-}
-
-.volBut:Hover
-{
-	background-color: #696969;
-}
-/* volunteer End */
-
-
-/* partner start */
-#partnerCon
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0 auto;
-	margin-top: 135px;
-}
-
-#partnerTitle
-{
-	width: 250px;
-	height: 36px;
-	text-align: center;
-	color: #696969;
-	margin-bottom: 30px;
-	background-color: #696969;
-
-}
-
-.partnerText
-{
-	width: 600px;
-	height: 50px;
-	text-align: center;
-	color: #696969;
-	background-color: #696969;
-	margin-bottom: 50px;
-}
-
-.partnerFeature
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0 auto;
-}
-
-.partnerLogo
-{
-	width: 160px;
-	height: 50px;
-	margin: 40px;
-	background-color: #282828;
-}
-
-/* partner end */
 
 #bodyTitle 
 {
@@ -878,73 +295,6 @@ input, textarea
 	position: relative;
 	z-index: -2;
 }
-
-/*end of the project page*/
-
-
-/*Project page section*/
-.projectPage
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 120px;
-}
-
-#projectTitle
-{
-	display: flex;
-
-}
-
-
-/*
-#bodyTitle 
-{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	width: 656px;
-	height: 105px;
-	background-color: #a9a9a9;
-	margin: 0 auto;
-	margin-bottom: 100px;
-	margin-top: 100px;
-}
-
-#bodyTitle h3
-{
-	font-family: 'Noticia Text', serif;
-	font-size: 36px;
-	margin: 10px;
-	
-}
-
-#bodyTitle h4
-{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
-	margin-top: 22px;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* question section */
@@ -1411,22 +761,260 @@ input, textarea
 	background-color: #696969;
 }
 
+/*this is for the about section */
 
+/*  title header for the section */
+#aboutSection
+{
+	margin-top: 110px;
+	padding-top: 72px;
+	border-top: 1px solid #333;
+	margin-bottom: 110px;
 
-/*for future uses maybe
-#bgimg {
-  max-width: 100%; 
-  width: 800px;
-  margin: auto;
 }
 
-#bgm::after {
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-  margin-top: -150px;
-  height: 150px;
-  width: 100%;
-  content: '';
-}*/
+#aboutSection h3
+{	
+	width: 611px;
+	height: 65px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 35px;
+	font-family: 'Noticia Text', serif;
+	line-height: 50px;
+	font-weight: 700;
+
+}
+
+/*about content section*/
+
+#aboutCon
+{
+	display: flex;
+	flex-direction; row;
+	justify-content: center;
+}
+
+
+#aboutImage
+{	
+	height: 600px;
+	width: 732px;
+	background-color: #282828;
+	margin-right: 60px;
+}
+
+#aboutImageDesc
+{
+	width: 360px;
+	height: 598px;
+	line-height: 28px;
+}
+
+#featureStack
+{
+	display: flex;
+	flex-direction: column;
+}
+/*end of about desc*/
+
+
+#otherTitle
+{
+	width: 760px;
+	height: 65px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 80px; 
+	font-size: 35px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.bulletpointCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	width: 840px;
+	margin-top: 20px;
+	margin-bottom: 120px;	
+}
+
+/* spacing the bullet points */
+.bulletpointCon p
+{
+	margin-bottom: 20px;
+	font-size: 16px;
+
+}
+
+/* center the containter to the wrapper projectCon */
+.bulletpointLeft
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 120px;
+	padding-left: 60px;
+
+}
+
+.bulletpointRight
+{
+	border-left: 1px solid #282828;
+	padding-left: 60px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
+.bulletpointRightCon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*end of bullet point section*/
+
+
+.committeeSection
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+#executiveCon-1
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+}
+
+#executiveCon-1 h3
+{
+
+	font-size: 28px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 700;
+}
+
+
+/* about page volunteer section */
+#profileconUpper
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1120px;
+	height: 400px;
+	margin-top: 50px;
+}
+
+.socialprofileAbout
+{
+	text-align: center;
+	width: 200px;
+	height: 280px;
+	margin-bottom: 55px;	
+	border-radius: 4px;
+}
+
+.socialprofileAbout h4
+{	
+	margin-top: 80px;
+}
+
+.socialprofileAbout p
+{	
+	line-height: 20px;
+}
+
+.profileImageabout
+{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	top: 40px;
+	border-radius: 100px;
+	margin: 0 auto;
+	background-color: #696969;
+}
+
+.profileImageabout img
+{
+	border-radius: 100px;
+}
+
+/* personel job title */
+.traaaboutTitle
+{
+	letter-spacing: 0.03em;
+	font-weight: bold;
+
+}
+
+/*part 2*/
+
+#executiveCon-2
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: -200px;
+}
+
+/* TRAA Committee section title */
+#executiveCon-2 h3
+{
+
+	font-size: 28px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 700;
+}
+
+
+#profileconLower
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1120px;
+	height: 400px;
+	margin-top: 50px;
+}
+
+
+#aboutimg
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1440px;
+	margin: 0 auto;
+	background-color: #dcdcdc;
+	position: relative;
+	z-index: -2;
+}
+
+#aboutFooter
+{	
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 545px;
+	width: 1440px;
+	background-color: #696969;
+
+}
 
