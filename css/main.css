@@ -145,8 +145,7 @@ div a {
 	flex-direction: column;
 	margin-left: auto;
 	width: 830px;
-	margin-top: 96px;
-	margin-bottom: 15px;
+	margin-top: 76px;
 
 }
 
@@ -177,9 +176,10 @@ ul li ul
 }
 
 /* hover meat and potatoes */
-ul li:hover > ul, ul li ul:hover 
+ul li:hover > ul, ul li:focus within > ul, ul li ul:hover 
 {
 	visibility: visible;
+	display: block;
 	opacity: 1;
 	color: #fff;
 	background-color: #35700d;
@@ -191,12 +191,19 @@ ul li ul li
 	clear: both;
 	width: 100%;
 }
+
+.dropDown
+{
+	color: #fff;
+}
+
 /* drop down end */
 #mainNav ul
 {
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
+	align-items: center;
 }
 
 #mainNav ul li {
@@ -213,26 +220,24 @@ ul li ul li
   	-o-transition: color 0.4s ease-out;
   	transition: color 0.4s ease-out;
 	text-decoration: none;	
-	color: #5d7132;
 }
 
 #mainNav ul li a:hover{
 	color: #d8ae58;
-	padding-bottom: 10px;
 
 }
-
-/*#selected
+/* membership bubble button */
+#selected a
 {
 
-	width: 100px ;
-	padding: 10px;	
-	background-color: #5d7132;
+	width: 100px;
+	color: white;
+	padding: 16px;	
+	background-color: #35700d;
 	display: inline-block;	
  	border-radius: 50px;
 
 }
-*/
 
 /* feature container */
 #featuredCon
