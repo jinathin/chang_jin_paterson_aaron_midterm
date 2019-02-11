@@ -290,11 +290,9 @@ input, textarea
 	justify-content: center;
 	width: 1440px;
 	margin: 0 auto;
-	background-color: #dcdcdc;
 	position: relative;
 	z-index: -2;
 }
-
 
 /* question section */
 .questionSection
@@ -755,7 +753,6 @@ input, textarea
 	justify-content: center;
 	width: 1440px;
 	margin: 0 auto;
-	background-color: #dcdcdc;
 	position: relative;
 	z-index: -2;
 }
