@@ -658,16 +658,23 @@ ul li ul li
 .fb-comment-embed
 {
 	width:400px;
-	height: 450px;
+	height: 486px;
 	margin-right: 60px;
-	background-color: #696969;
+	padding: 5px;
+	border: 1px solid #282828;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+            0 2px 4px 0 rgba(0,0,0,0.08);
+
 }
 
 .twitter-comment-embed
 {
 	width:400px;
-	height: 450px;
-	background-color: #696969;
+	height: 486px;
+	padding: 5px;
+	border: 1px solid #282828;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+            0 2px 4px 0 rgba(0,0,0,0.08);
 }
 
 

@@ -13,3 +13,15 @@
 //console.log("Hello " + firstName);
 
 console.log("javascript linked up");
+
+
+// this is the function of the Javascript for click button to reveal image
+// also mind that its calling the div 
+function myFunction() {
+  var e = document.getElementById("chartimg");
+   if(e.style.display == 'block') {
+        e.style.display = 'none';
+   } else {
+       e.style.display = 'block';
+   }
+}
