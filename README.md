@@ -38,3 +38,5 @@ Still trying to sort out the navigation alignment and hover feature. Not happy..
 	padding: 10px;
 	background-color: #5d7132;
 }*/
+
+struggling a little with understanding the dropdown Menu. getting there though.

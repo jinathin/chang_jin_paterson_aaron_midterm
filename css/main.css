@@ -149,7 +149,49 @@ div a {
 	margin-bottom: 15px;
 
 }
- 
+
+/* drop downmenu start  */
+li 
+{
+ 	display: block;
+ 	float: left;
+ 	padding: 10px;
+    position: relative;
+    text-decoration: none;
+ 	transition-duration: 0.2s;
+}
+
+li:hover 
+{
+ 	cursor: pointer;
+}
+
+ul li ul 
+{
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	transition: all 0.2s ease;
+	margin-top: 10px;
+	display: none;
+}
+
+/* hover meat and potatoes */
+ul li:hover > ul, ul li ul:hover 
+{
+	visibility: visible;
+	opacity: 1;
+	color: #fff;
+	background-color: #35700d;
+	padding: 15px; 
+}
+
+ul li ul li 
+{
+	clear: both;
+	width: 100%;
+}
+/* drop down end */
 #mainNav ul
 {
 	display: flex;
@@ -159,6 +201,7 @@ div a {
 
 #mainNav ul li {
 	font-size: 16px;
+	font-weight: 600;
 	margin-left: 0px;
 	letter-spacing: 0.03em;
 }
@@ -937,19 +980,26 @@ input
 	color: #fff;
 	border-right: 1px solid #fff;
 }
+
+.quickLinks a
+{
+	font-size: 16px;
+	color: #fff;
+}
+
+
 /* iconFinder pointer */
 .iconNudge
 {
 	padding-right: 10px; 
 }
-
+/*wrapper */
 .contactUs
 {
-
 	color: #fff;
 	
 }
-
+/* heading */
 .contactUs h3
 {
 	width: 200px;
@@ -959,7 +1009,7 @@ input
 	letter-spacing: 0.02em;
 
 }
-
+/* text */
 .contactUs p
 {
 	width: 225px;
