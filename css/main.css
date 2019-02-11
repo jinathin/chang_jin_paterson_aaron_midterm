@@ -150,7 +150,7 @@ div a {
 }
 
 /* drop downmenu start  */
-li 
+li:not(.dropDown li) 
 {
  	display: block;
  	float: left;
@@ -158,6 +158,19 @@ li
     position: relative;
     text-decoration: none;
  	transition-duration: 0.2s;
+}
+
+/* dropdown menu */
+.dropDown
+{
+	display: flex;
+	flex-direction: column;
+
+}
+/* white dropdown text */
+.whiteText
+{
+	color: #fff !important; /* THis is TEMPORARY!! */
 }
 
 li:hover 
@@ -181,7 +194,6 @@ ul li:hover > ul, ul li:focus within > ul, ul li ul:hover
 	visibility: visible;
 	display: block;
 	opacity: 1;
-	color: #fff;
 	background-color: #35700d;
 	padding: 15px; 
 }
@@ -192,28 +204,27 @@ ul li ul li
 	width: 100%;
 }
 
-.dropDown
-{
-	color: #fff;
-}
 
 /* drop down end */
 #mainNav ul
 {
 	display: flex;
 	justify-content: space-evenly;
-	flex-direction: row;
 	align-items: center;
 }
 
-#mainNav ul li {
+#mainNav ul li 
+{
 	font-size: 16px;
 	font-weight: 600;
 	margin-left: 0px;
 	letter-spacing: 0.03em;
+	padding-top: 10px;
+	padding-bottom: 7px;
 }
 
-#mainNav ul li a{
+#mainNav ul li a
+{
 	font-size: 16px;
 	-webkit-transition: color 0.4s ease-out;
   	-moz-transition: color 0.4s ease-out;
@@ -222,10 +233,12 @@ ul li ul li
 	text-decoration: none;	
 }
 
-#mainNav ul li a:hover{
+#mainNav ul li a:hover
+{
 	color: #d8ae58;
 
 }
+
 /* membership bubble button */
 #selected a
 {
@@ -1249,7 +1262,7 @@ input
 #projecttextArea
 {
 	width: 980px;
-	height: 45 00px;
+	height: 4350px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 2;
