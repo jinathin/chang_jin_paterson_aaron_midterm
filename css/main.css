@@ -8,25 +8,26 @@
 	display: none;
 }
 
+/* Colour Palette */
 /* sky blue && greens */
 /* b8ecd9 */
-/* 083642 */
-/* b0df49 */
+/* 083642 dark blue */
+/* b0df49  lime green */
 /* cdf0a7 */
  /* 476c5f */
+ /* 35700d  hover green */
 
 
 /* Logo Greens below */
-/* 9abd4b */
-/* 5d7132 */
-/* d8ae58 */
+/* 9abd4b primary green */
+/* 5d7132 lime green  */
+/* d8ae58  brown */
 
 /*font-family: 'Noticia Text', serif; */
 /*font-family: 'Source Sans Pro', sans-serif; */
 body
 {
-	font-family: 'Source Sans Pro', Arial, sans-serif;
-
+	font-family: 'Source Sans Pro', Georgia, sans-serif;
 
 }
 
@@ -50,14 +51,13 @@ div a {
 
 /* This will fill all my content */
 #topInfo
-{	
-	display: flex;
+{	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	width: 1440px;
 	height: 54px;
 	margin: 0 auto;
-	background-color: #dcdcdc;
+	background-color: #9abd4b;
 }
 
 .holder
@@ -68,24 +68,44 @@ div a {
 
 }
 
+/* very top telephone number and social area container */
 #contactTop
 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	width: 300px;
 	height: 27px;
-	color: #fff;
 	margin-top: 12px;
-	margin-right: 500px;
-	background-color: #696969;
+	margin-right: 750px;
+	color: #000;
 }
 
-#socialTop
-{
-	width: 300px;
-	height: 27px;
-	color: #fff;
-	margin-top: 12px;
-	background-color: #696969;
+#socialTop{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
+.socialMedia{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialMedia ul li{
+	filter: brightness(0.30); /*for IE6-9*/
+	-webkit-filter: brightness(100%); /* Chrome 19+ & Safari 6+ */
+	list-style: none;
+	display: inline;
+	padding: 7px;
+	align-items: center;
+}
+
+.socialMedia ul li:hover{	
+  filter: none;
+  -webkit-filter: brightness(0%);
 }
 
 /* put DIVs the the siteContianer */
@@ -101,20 +121,19 @@ div a {
 	display: flex;
 	flex-direction: row;
 	margin-top: 40px;
+
 }
 
 /*This is a flex for logo */
 #logo
 {	
-	background-color: #696969;
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
 
 }
 
-.navCon
-{
+.navCon{
 	margin-left: auto;
 	height: 100px;
 	margin-bottom: 30px;
@@ -125,20 +144,95 @@ div a {
 	display:flex;
 	flex-direction: column;
 	margin-left: auto;
-	width: 742px;
-	height: 45px;
+	width: 830px;
 	margin-top: 96px;
 	margin-bottom: 15px;
-	background-color: #696969;
+
 }
 
+/* drop downmenu start  */
+li 
+{
+ 	display: block;
+ 	float: left;
+ 	padding: 10px;
+    position: relative;
+    text-decoration: none;
+ 	transition-duration: 0.2s;
+}
+
+li:hover 
+{
+ 	cursor: pointer;
+}
+
+ul li ul 
+{
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	transition: all 0.2s ease;
+	margin-top: 10px;
+	display: none;
+}
+
+/* hover meat and potatoes */
+ul li:hover > ul, ul li ul:hover 
+{
+	visibility: visible;
+	opacity: 1;
+	color: #fff;
+	background-color: #35700d;
+	padding: 15px; 
+}
+
+ul li ul li 
+{
+	clear: both;
+	width: 100%;
+}
+/* drop down end */
 #mainNav ul
 {
-
-	text-decoration: uppercase;
 	display: flex;
+	justify-content: space-evenly;
 	flex-direction: row;
 }
+
+#mainNav ul li {
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 0px;
+	letter-spacing: 0.03em;
+}
+
+#mainNav ul li a{
+	font-size: 16px;
+	-webkit-transition: color 0.4s ease-out;
+  	-moz-transition: color 0.4s ease-out;
+  	-o-transition: color 0.4s ease-out;
+  	transition: color 0.4s ease-out;
+	text-decoration: none;	
+	color: #5d7132;
+}
+
+#mainNav ul li a:hover{
+	color: #d8ae58;
+	padding-bottom: 10px;
+
+}
+
+/*#selected
+{
+
+	width: 100px ;
+	padding: 10px;	
+	background-color: #5d7132;
+	display: inline-block;	
+ 	border-radius: 50px;
+
+}
+*/
 
 
 
@@ -295,53 +389,63 @@ input, textarea
 }
 
 /* question section */
+/* question section */
 .questionSection
 {
 	width: 1020px;
-	height: 110px;
-	position: relative;
-	margin: 0 auto;
+	height: 110px;	
 	bottom: 50px;
-	background-color: #dcdcdc;
+	position: relative;
 	justify-content: space-evenly;
+	margin: 0 auto;
+	background-color: #9abd4b;
+	
 }
 
 .haveQuestion
 {
 	display: flex;
 	flex-direction: row;
-	margin: 23px 25px 25px 70px;
+	justify-content: center;
+	margin: 25px;
 
-}
-
-#questionNumber
-{
-	display: flex;
-	flex-direction: column;
 }
 
 .haveQuestion h3
 {
 	width: 200px;
 	height: 20px;
+	font-size: 16px;
 	margin-bottom: 14px;
-	font-size: 16px;
-	background-color: #696969;
+	color: #fff;
 
-}
-
-.haveQuestion p
-{
-	width: 240px;
-	height: 30px;
-	font-size: 16px;
-	background-color: #282828;
 }
 
 #questionNumber
 {
 	display: flex;
 	flex-direction: column;
+}
+
+#questionNumber p
+{
+	font-weight: 600;
+	font-size: 32px;
+	color: #fff;
+
+}
+/* subcribe button */
+.subscribeTitle
+{
+	width: 200px;
+	text-align: center;
+	padding: 7px;
+	border-radius: 25px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	background-color: #35700d;
+
 }
 
 .emailSection
@@ -371,17 +475,16 @@ input, textarea
 	padding: 14px 26px 14px 25px;
 	border: 1px solid #d1d1d1;
 	bottom: 56px;
-	border-radius: 20px;
+	border-radius: 25px;
 	margin-right: 30px;
 }
 
-.subscribeTitle
+/* change font size */
+input
 {
-	width: 111px;
-	height: 30px;
-	background-color: #696969;
+	font-size: 14px;
 }
-/* question end  */
+/* Question submissionfeed end  */
 
 
 /* mission start */
@@ -409,8 +512,9 @@ input, textarea
 	flex-direction: column;
 	margin: 0 auto;
 }
+
 /* mission statement end */
-.pmissionCon
+.missionCon
 {
 	display: flex;
 	flex-direction: row;
@@ -419,14 +523,11 @@ input, textarea
 
 }
 
-
 #missionWrapper
 {
 	display: flex;
 	flex-direction: column;
 }
-
-
 
 #missionInfo
 {
@@ -435,32 +536,70 @@ input, textarea
 	justify-content: space-evenly;
 	width: 1020px;
 	height: 310px;
-	margin-top: 40px;
+	margin-top: 80px;
 
 }
 
 /* our mission start */
-.ourMission
+.ourMission h4
 {
 	width: 260px;
-	background-color: #282828;
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.02em;
+}
+.ourMission p
+{
+	width: 225px;
+	margin-top: 25px;
+	color: #fff;
 }
 
 .quickLinks
 {
 	width: 260px;
-	background-color: #282828;
+	color: #fff;
+	border-right: 1px solid #fff;
 }
+
+.quickLinks a
+{
+	font-size: 16px;
+	color: #fff;
+}
+
+
+/* iconFinder pointer */
+.iconNudge
+{
+	padding-right: 10px; 
+}
+/*wrapper */
 .contactUs
 {
-	width: 260px;
-	border-left: 1px solid #fff;
-	background-color: #282828;
+	color: #fff;
+	
+}
+/* heading */
+.contactUs h3
+{
+	width: 200px;
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.02em;
+
+}
+/* text */
+.contactUs p
+{
+	width: 225px;
+	margin-top: 25px;
+	color: #fff;
 }
 
-
 /*copyright start */
-
 #copyRight
 {	
 
@@ -468,7 +607,7 @@ input, textarea
 	width: 1440px;
 	height: 56px;
 	margin-top: 540px;
-	background-color: #dcdcdc;
+	background-color: #9abd4b;
 }
 
 .copyrightCopy 
@@ -484,24 +623,11 @@ input, textarea
 {
 	width: 200px;
 	height: 25px;
-	margin-left: ;
-	background-color: #696969;
 
 }
+
 
 /* copyright end */
-#mainFooter
-{	
-	display: flex;
-	flex-direction: row;
-	position: absolute;
-	height: 545px;
-	width: 1440px;
-	margin-top: 5275px;
-	background-color: #696969;
-
-}
-
 #mainFootercontact
 {	
 	width: 1440px;
@@ -769,4 +895,17 @@ input, textarea
 	background-color: #696969;
 
 }
+/* project section end */
+#mainFooter
+{	
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	height: 545px;
+	width: 1440px;
+	margin-top: 5400px;
+	background-color: #282828;
+
+}
+
 

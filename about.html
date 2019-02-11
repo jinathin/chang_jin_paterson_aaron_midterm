@@ -16,13 +16,13 @@
 		<section class="holder">
 			<h2 class="hidden">Contact and Social Menu</h2>
 			<div id="contactTop">
-				<img src="images/iconfinder_phone-square_1608789.svg" alt="Iconfinder - Telephone" width="27" height="27" id="iconfinder_icon" title="Telephone Icon">
+				<img src="images/iconfinder_phone-square_1608789.svg" alt="Iconfinder - Telephone" width="27" height="27" title="Telephone Icon">
 				<p>1800 123 - 4678</p>
-				<img src="images/iconfinder_email_326515.svg" alt="Iconfinder - Email" width="25" height="25" id="iconfinder_icon" title="Email Icon">
+				<img src="images/iconfinder_email_326515.svg" alt="Iconfinder - Email" width="25" height="25" title="Email Icon">
 				<p>@anglersmail.com</p>
 			</div>
 			<div id="socialTop">
-			        <nav id="socialMedia">
+			        <nav class="socialMedia">
 			            <h2 class="hidden">Social Media Navigation</h2>			                        
 			                <ul>
 			                    <li><a href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter Social Media Link" height="20"></a></li>
@@ -46,13 +46,20 @@
 	        	<div class="navCon">
 		            <nav id="mainNav"><h2 class="hidden">Main Navigation</h2>
 				            <ul>
-				               <li><a href="#">HOME</a></li>
+				               <li><a href="#">HOME</a>
+				               		  <ul class="dropDown">
+							                <li><a href="#">FUNDING</a></li>
+							                <li><a href="#">NEWSFEED</a></li>
+							                <li><a href="#">VOLUNTEERS</a></li>
+							                <li><a href="#">PARTNERS</a></li>
+							            </ul>
+				               </li>
 				               <li><a href="about.html">ABOUT</a></li>
 				               <li><a href="projects.html">PROJECTS</a></li>
 				               <li><a href="#">SHOP</a></li>
 				               <li><a href="#">EVENTS</a></li>
 				               <li><a href="contact.html">CONTACT US</a></li>
-				               <li id ><a href="#">MEMBERSHIP</a></li>
+				               <li id="selected" ><a href="#">MEMBERSHIP</a></li>
 				            </ul>
 		            </nav>
 		            <!--end mainNav-->
@@ -190,13 +197,13 @@
 	  			<h2 class="hidden">Ask us a question?</h2>
 	  			<div class="haveQuestion">
 	  				<div id="questionNumber">
-	  				<h3>…</h3>
-	  				<p>.</p>
+	  				<h3>Do you have a question?</h3>
+	  				<p>1 800 123 - 4678</p>
 	  				</div>
 		  				<div class="emailSection">
 		  					<form id="emailForm">
 		  						<input type="text" placeholder="Email Us">
-							<p class="subscribeTitle"></p>
+							<a href="#"><p class="subscribeTitle">Subscribe</p></a>
 							</form>
 						</div>
 				</div>
@@ -206,20 +213,46 @@
 		       			<div id="missionWrapper">
 		       				<section id="missionInfo">
 		       					<h3 class="hidden">Social Media Nav</h3>
-		       						<div class="ourMission"></div>
-		       						<div class="quickLinks"></div>
-		       						<div class="contactUs"></div>
+		       						<div class="ourMission">
+		       							<h4>Our Mission</h4>
+		       							<p><span class="boldStyling">Dedication Today for Tomorrow</span> "For the enhancement, protection and promotion of a viable,multi-species fishery within the Thames River watershed.</p>
+		       						</div>
+		       						<div class="quickLinks">
+		       							<p><img class="iconNudge" src="images/circledbordertriangleright_183331.svg" width="15" height="15" alt="circlebordertriangle"><a href="#">HOME</a></p>
+		       							<p><img class="iconNudge" src="images/circledbordertriangleright_183331.svg" width="15" height="15" alt="circlebordertriangle"><a href="#">ABOUT</a></p>
+		       							<p><img class="iconNudge" src="images/circledbordertriangleright_183331.svg" width="15" height="15" alt="circlebordertriangle"><a href="#">PROJECTS</a></p>
+		       							<p><img class="iconNudge" src="images/circledbordertriangleright_183331.svg" width="15" height="15" alt="circlebordertriangle"><a href="#">SHOP</a></p>
+		       							<p><img class="iconNudge" src="images/circledbordertriangleright_183331.svg" width="15" height="15" alt="circlebordertriangle"><a href="#">EVENTS</a></p>
+		       							<p><img class="iconNudge" src="images/circledbordertriangleright_183331.svg" width="15" height="15" alt="circlebordertriangle"><a href="#">CONTACT US</a></p>
+		       							<p><img class="iconNudge" src="images/circledbordertriangleright_183331.svg" width="15" height="15" alt="circlebordertriangle"><a href="#">MEMBERSHIP</a></p>
+		       						</div>
+		       						<div class="contactUs">
+		       							<h3>Contact Us</h3>
+		       							<p><span class="boldStyling">Thames River  Anglers Association</span>
+		       							2202 Coronation Drive London, Ontario N6G 0B9</p>
+		       						</div>
 		       				</section>
 		       			</div>
 		       		</section>
 	  		</section>
+	  		<!-- mission content end -->
 		  	<!-- lower contact info -->
 			<section id="copyRight">
 	  			<h2 class="hidden">Copyright</h2>
 					<section class="copyrightCopy">
 						<h3 class="hidden">Copyright Text</h3>
 						<p>&copy; Copyright 2019 The Thames River Anglers Association. All Rights Reserved</p>
-						<div class="socialmediaFooter"></div>
+						<div class="socialmediaFooter">
+							<nav class="socialMedia">
+							            <h2 class="hidden">Social Media Navigation</h2>			                        
+							            <ul>
+							                <li><a href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter Social Media Link" height="20"></a></li>
+							                    <li><a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram Social Media Link" height="20"></a></li>
+							                    <li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook Social Media Link" height="20"></a></li>
+							                    <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" alt="YouTube Social Media Link" height="20"></a></li>
+							            </ul>
+			        		</nav>
+						</div>
 					</section>
 
 			</section>	
