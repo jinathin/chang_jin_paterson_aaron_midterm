@@ -74,3 +74,4 @@ then went ahead in html to make the menus link to each others (such as drop down
 overall finally pushed to the master branch and now it works as intended 
 
 Feb 12th 5:13am, FOL server is still down so unable to upload to the dropbox 
+fol works now so handed it without problems
