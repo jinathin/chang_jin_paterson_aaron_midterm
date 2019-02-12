@@ -9,15 +9,7 @@
 }
 
 /* Colour Palette */
-/* sky blue && greens */
-/* b8ecd9 */
-/* 083642 dark blue */
-/* b0df49  lime green */
-/* cdf0a7 */
- /* 476c5f */
  /* 35700d  hover green */
-
-
 /* Logo Greens below */
 /* 9abd4b primary green */
 /* 5d7132 lime green  */
@@ -226,10 +218,10 @@ ul li ul li
 #mainNav ul li a
 {
 	font-size: 16px;
-	-webkit-transition: color 0.4s ease-out;
-  	-moz-transition: color 0.4s ease-out;
-  	-o-transition: color 0.4s ease-out;
-  	transition: color 0.4s ease-out;
+	-webkit-transition: color 0.2s ease-out;
+  	-moz-transition: color 0.2s ease-out;
+  	-o-transition: color 0.2s ease-out;
+  	transition: color 0.2s ease-out;
 	text-decoration: none;	
 }
 
