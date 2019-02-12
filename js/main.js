@@ -26,8 +26,38 @@ function myFunction() {
    }
 }
 
-// The subscriptionPopup() function handles open and close
-// functionality of the subscription popup. It helps to show and hide the popup content to the user.
+//Js for 2nd chart
+function myFunction2() {
+  var e = document.getElementById("chartimg2");
+   if(e.style.display == 'block') {
+        e.style.display = 'none';
+   } else {
+       e.style.display = 'block';
+   }
+}
+
+//Js for 3rd chart
+function myFunction3() {
+  var e = document.getElementById("chartimg3");
+   if(e.style.display == 'block') {
+        e.style.display = 'none';
+   } else {
+       e.style.display = 'block';
+   }
+}
+
+//Js for 4th chart
+function myFunction4() {
+  var e = document.getElementById("chartimg4");
+   if(e.style.display == 'block') {
+        e.style.display = 'none';
+   } else {
+       e.style.display = 'block';
+   }
+}
+
+The subscriptionPopup() function handles open and close
+functionality of the subscription popup. It helps to show and hide the popup content to the user.
 function subscriptionPopup(){
     // get the mPopup
     var mpopup = $('#mpopupBox');

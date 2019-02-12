@@ -9,7 +9,16 @@
 }
 
 /* Colour Palette */
+/* 35700d  hover green */
+/* sky blue && greens */
+/* b8ecd9 */
+/* 083642 dark blue */
+/* b0df49  lime green */
+/* cdf0a7 */
+ /* 476c5f */
  /* 35700d  hover green */
+
+
 /* Logo Greens below */
 /* 9abd4b primary green */
 /* 5d7132 lime green  */
@@ -140,6 +149,7 @@ div a {
 	margin-top: 76px;
 
 }
+
 /* mPopup box style */
 .mpopup {
     display: none;
@@ -228,6 +238,7 @@ li:not(.dropDown li)
  	transition-duration: 0.2s;
 }
 
+
 /* dropdown menu */
 .dropDown
 {
@@ -240,6 +251,7 @@ li:not(.dropDown li)
 {
 	color: #fff !important; /* THis is TEMPORARY!! */
 }
+
 
 li:hover 
 {
@@ -257,6 +269,7 @@ ul li ul
 }
 
 /* hover meat and potatoes */
+
 ul li:hover > ul, ul li:focus within > ul, ul li ul:hover 
 {
 	visibility: visible;
@@ -280,6 +293,7 @@ ul li ul li
 	justify-content: space-evenly;
 	align-items: center;
 }
+
 
 #mainNav ul li 
 {
@@ -782,7 +796,7 @@ ul li ul li
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 300px;
+	width: 1050px;
 	height: 400px;
 	margin-bottom: 90px;
 
@@ -899,6 +913,167 @@ ul li ul li
 }
 
 /* partner end */
+
+
+/*contact page section*/
+
+
+#contactTitle 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 656px;
+	height: 105px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+#contactTitle h3
+{
+	font-family: 'Noticia Text', serif;
+	font-size: 35px;
+	margin: 10px;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+#contactTitle h4
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 28px;
+	margin-top: 22px;
+
+}
+
+#googleMap
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 600px;
+	z-index: -1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#contactForm
+{
+	display: flex;
+    flex-direction: row;
+    width: 910px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    justify-content: space-evenly; 
+   	bottom: 50px;
+   	margin-bottom: -300px;
+   /*	box-shadow: 10px 10px 5px #dcdcdc;*/
+   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#contactText 
+{
+	display: flex;
+	/*background-color: #696969;*/
+	width: 266px;
+	height: 279px;
+	margin: 50px;
+  	font-size: 18px;
+  	margin-bottom: 30px;
+  	width: 380px;
+  	font-family: 'Source Sans Pro', sans-serif;
+  	padding-top: 20px;
+
+}
+
+.vl 
+{
+	border-left: 1px solid black;
+  	height: 700px;
+ 	position: absolute;
+ 	left: 50%;
+  	margin-left: -60px;
+  	margin-top: 50px;
+
+}
+
+.contactLable
+{
+	display: flex;
+	/*background-color: #696969;*/
+	width: 428px;
+	height: 736px;
+	margin: 50px;
+	justify-content: center;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contactUi
+{
+	margin-top: 30px;
+}
+
+
+input, textarea
+{
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 0.5px solid black;
+  color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#messages
+{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+#submit
+{
+/*  display: block;*/
+  font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	width: 170px;
+	height: 50px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 25px;
+	color: #fff;
+	background-color: #9abd4b;
+	-webkit-transition: color 0.4s ease-out;
+  	-moz-transition: color 0.4s ease-out;
+  	-o-transition: color 0.4s ease-out;
+  	transition: color 0.4s ease-out;
+	
+
+}
+
+#bgimg
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1440px;
+	margin: 0 auto;
+	position: relative;
+	z-index: -2;
+}
+
 
 
 /* question section */
@@ -1138,18 +1313,37 @@ input
 
 }
 
+
 /* About section start CSS */
 .aboutSpace
 {
 	margin-bottom: 820px;
 }
 
+
+/* copyright end */
+#mainFootercontact
+{	
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 545px;
+	width: 1440px;
+	background-color: #282828;
+}
+
+/*this is for the about section */
+
+
 /*  title header for the section */
 #aboutSection
 {
 	margin-top: 110px;
 	padding-top: 72px;
-	border-top: 1px solid #333;
+	/*border-top: 1px solid #333;*/
+	margin-bottom: 110px;
 
 }
 
@@ -1157,20 +1351,24 @@ input
 {	
 	width: 611px;
 	height: 65px;
-	color: #696969;
 	text-align: center;
-	background-color: #696969;
 	margin: 0 auto;
-	margin-top: 10px;
-
+	font-size: 35px;
+	font-family: 'Noticia Text' , serif;
+	line-height: 50px;
+	font-weight: 700;
 }
 /* intro top section wrapper */
+
+
+/*about content section*/
+
+
 #aboutCon
 {
 	display: flex;
 	flex-direction; row;
-	position: absolute;
-	margin-top: 670px;
+	justify-content: center;
 }
 
 
@@ -1186,8 +1384,7 @@ input
 {
 	width: 360px;
 	height: 598px;
-	background-color: #a9a9a9;
-
+	line-height: 28px;
 }
 
 .bulletpointCon
@@ -1201,22 +1398,45 @@ input
 	margin-bottom: 120px;	
 }
 
+
+#featureStack
+{
+	display: flex;
+	flex-direction: column;
+}
+/*end of about desc*/
+
+
 #otherTitle
 {
-	width: 611px;
+	width: 760px;
 	height: 65px;
-	color: #696969;
 	text-align: center;
-	background-color: #696969;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-bottom: 80px; 
+	font-size: 35px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.bulletpointCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	width: 840px;
+	margin-top: 20px;
+	margin-bottom: 120px;	
 }
 
 /* spacing the bullet points */
 .bulletpointCon p
 {
 	margin-bottom: 20px;
+	font-size: 16px;
 }
 
 /* center the containter to the wrapper projectCon */
@@ -1225,7 +1445,9 @@ input
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-right: 60px;
+	padding-right: 120px;
+	padding-left: 60px;
+
 
 }
 
@@ -1233,6 +1455,8 @@ input
 {
 	border-left: 1px solid #282828;
 	padding-left: 60px;
+	padding-right: 20px;
+	margin: 0 auto;
 }
 
 .bulletpointRightCon
@@ -1242,16 +1466,47 @@ input
 	align-items: center;
 }
 
+
 /* home page profile */
-#profileCon
+
+/*end of bullet point section*/
+
+
+.committeeSection
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+#executiveCon-1
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+}
+
+#executiveCon-1 h3
+{
+
+	font-size: 28px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 700;
+}
+
+
+/* about page volunteer section */
+#profileconUpper
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 1040px;
+	width: 1120px;
 	height: 400px;
 	margin-top: 50px;
-
 }
 
 .socialprofileAbout
@@ -1261,7 +1516,6 @@ input
 	height: 280px;
 	margin-bottom: 55px;	
 	border-radius: 4px;
-	background-color: #dcdcdc;
 }
 
 .socialprofileAbout h4
@@ -1269,7 +1523,23 @@ input
 	margin-top: 80px;
 }
 
+
 .profileImage img
+{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	top: 40px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+
+.socialprofileAbout p
+{	
+	line-height: 20px;
+}
+
+.profileImageabout
 {
 	width: 120px;
 	height: 120px;
@@ -1292,8 +1562,22 @@ input
 {
 	letter-spacing: 0.03em;
 	font-weight: bold;
+}
+
+
+.profileImageabout img
+{
+	border-radius: 100px;
+}
+
+/* personel job title */
+.traaaboutTitle
+{
+	letter-spacing: 0.03em;
+	font-weight: bold;
 
 }
+
 
 .personName
 {
@@ -1416,3 +1700,60 @@ input
 	background-color: #282828;
 
 }
+
+/*part 2*/
+
+#executiveCon-2
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: -200px;
+}
+
+/* TRAA Committee section title */
+#executiveCon-2 h3
+{
+
+	font-size: 28px;
+	font-family: 'Noticia Text', serif;
+	font-weight: 700;
+}
+
+
+#profileconLower
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1120px;
+	height: 400px;
+	margin-top: 50px;
+}
+
+
+#aboutimg
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1440px;
+	margin: 0 auto;
+	position: relative;
+	z-index: -2;
+}
+
+#aboutFooter
+{	
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 545px;
+	width: 1440px;
+	background-color: #282828;
+
+}
+
