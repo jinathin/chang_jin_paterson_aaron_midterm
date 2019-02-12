@@ -239,7 +239,7 @@ ul li ul li
 /*contact page section*/
 
 
-#bodyTitle 
+#contactTitle 
 {
 	display: flex;
 	align-items: center;
@@ -251,19 +251,21 @@ ul li ul li
 	margin-top: 100px;
 }
 
-#bodyTitle h3
+#contactTitle h3
 {
 	font-family: 'Noticia Text', serif;
-	font-size: 36px;
+	font-size: 35px;
 	margin: 10px;
-	
+	font-weight: 700;
+	line-height: 50px;
 }
 
-#bodyTitle h4
+#contactTitle h4
 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
+	font-size: 28px;
 	margin-top: 22px;
+
 }
 
 #googleMap
@@ -356,24 +358,30 @@ input, textarea
 {
   width: 300px;
   height: 200px;
+  margin-bottom: 50px;
 }
 
 #submit
 {
-  display: block;
-  width: 75px;
-  height: 30px;
-  text-align: center;
-  margin-top: 50px;
-  color: #FFF;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #9abd4b;
-  font-size: 15px;
-  border: 2px solid black;
+/*  display: block;*/
   font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	width: 170px;
+	height: 50px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 25px;
+	color: #fff;
+	background-color: #9abd4b;
+	-webkit-transition: color 0.4s ease-out;
+  	-moz-transition: color 0.4s ease-out;
+  	-o-transition: color 0.4s ease-out;
+  	transition: color 0.4s ease-out;
+	
+
 }
 
 #bgimg
@@ -636,7 +644,7 @@ input
 	justify-content: center;
 	height: 545px;
 	width: 1440px;
-	background-color: #696969;
+	background-color: #282828;
 }
 
 /*this is for the about section */
@@ -891,20 +899,25 @@ input
 	justify-content: center;
 	height: 545px;
 	width: 1440px;
-	background-color: #696969;
-
-}
-/* project section end */
-#mainFooter
-{	
-	display: flex;
-	flex-direction: row;
-	position: absolute;
-	height: 545px;
-	width: 1440px;
-	margin-top: 5400px;
 	background-color: #282828;
 
 }
 
 
+
+
+
+
+
+
+.item { color: #B24005;
+    font-size: 20px;
+    text-align: left
+}
+.item:hover { color: #00B295;
+          font-size: 20px;
+          text-align: left
+}
+.myImg{
+   display:none;
+}
