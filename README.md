@@ -72,3 +72,5 @@ changed quite a bit of css to solve the conflicts
 then went ahead in html to make the menus link to each others (such as drop down menu to link to the section of the page)
 
 overall finally pushed to the master branch and now it works as intended 
+
+Feb 12th 5:13am, FOL server is still down so unable to upload to the dropbox 
