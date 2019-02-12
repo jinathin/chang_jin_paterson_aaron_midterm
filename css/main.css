@@ -910,14 +910,4 @@ input
 
 
 
-.item { color: #B24005;
-    font-size: 20px;
-    text-align: left
-}
-.item:hover { color: #00B295;
-          font-size: 20px;
-          text-align: left
-}
-.myImg{
-   display:none;
-}
+
